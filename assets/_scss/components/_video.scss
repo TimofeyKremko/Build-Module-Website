@@ -26,17 +26,17 @@ body {
 }
 
 .container-video .box.box1 {
-  background-color: brown;
+  background-color: $primary_color;
   clip-path: polygon(0 0, 33% 0, 33% 100%, 0% 100%);
 }
 
 .container-video .box.box2 {
-  background-color: green;
+  background-color: primary_color;
   clip-path: polygon(33% 0, 67% 0, 67% 100%, 33% 100%);
 }
 
 .container-video .box.box3 {
-  background-color: blue;
+  background-color: primary_color;
   clip-path: polygon(67% 0, 100% 0, 100% 100%, 67% 100%);
 }
 
@@ -80,4 +80,3 @@ video {
   height: 100vh;
   object-fit: cover;
 }
-
