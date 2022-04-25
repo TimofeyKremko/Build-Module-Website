@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: 'Montserrat';
-  src: url("../fonts/Montserrat/Montserrat-Medium");
+  src: url("../fonts/Montserrat/Montserrat-Medium.woff2");
   font-weight: 500;
   font-style: normal;
 }
@@ -21,7 +21,7 @@
 
 @font-face {
   font-family: 'Montserrat';
-  src: url("../fonts/Montserrat/Montserrat-Semi-Bold.woff2");
+  src: url("../fonts/Montserrat/Montserrat-SemiBold.woff2");
   font-weight: 600;
   font-style: normal;
 }
@@ -230,13 +230,15 @@ hr {
   height: 2px;
 }
 
-.menu-button, .menu-button1 {
+.menu-button,
+.menu-button1 {
   position: static;
   cursor: pointer;
   z-index: 666;
 }
 
-.menu-button .button__overlay, .menu-button1 .button__overlay {
+.menu-button .button__overlay,
+.menu-button1 .button__overlay {
   background-color: #CBFB45;
   width: 40px;
   height: 40px;
@@ -250,7 +252,8 @@ hr {
   border-radius: 50%;
 }
 
-.menu-button .button__overlay img, .menu-button1 .button__overlay img {
+.menu-button .button__overlay img,
+.menu-button1 .button__overlay img {
   max-width: 100%;
   height: auto;
 }
@@ -328,7 +331,7 @@ hr {
   outline: none;
 }
 
-.menu-overlay .nav .form__btn {
+.form__btn {
   font-size: 18px;
   margin-top: 50px;
   padding: 10px 20px;
@@ -337,6 +340,7 @@ hr {
   background-color: #151517;
   border: none;
   color: #F3F3F3;
+  cursor: pointer;
 }
 
 .menu-button1 {
@@ -380,6 +384,13 @@ hr {
   100% {
     opacity: 1;
   }
+}
+
+.swal2-confirm {
+  background-color: #CBFB45 !important;
+  color: #000;
+  -webkit-box-shadow: 0;
+          box-shadow: 0;
 }
 
 .btn {
@@ -1781,6 +1792,13 @@ video {
 .house-form .form__container {
   max-width: 580px;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .house-form .form__container form {

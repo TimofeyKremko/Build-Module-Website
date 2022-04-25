@@ -1,7 +1,7 @@
 const menuButton = document.querySelector(".menu-button");
 const menuButton1 = document.querySelector(".menu-button1");
 const menuOverlay = document.querySelector(".menu-overlay");
-const formBtns = document.querySelectorAll(".form__btn");
+const formBtns = document.querySelector(".form__btn");
 console.log(formBtns);
 
 menuButton.addEventListener("click", function () {
@@ -14,8 +14,7 @@ menuButton1.addEventListener("click", function () {
   menuOverlay.classList.toggle("open");
 });
 
-formBtns.forEach(item => {
-  item.addEventListener("click", (e) => {
-    alert("Ваше сообщение отправлено");
-  });
-})
+
+
+  
+

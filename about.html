@@ -47,8 +47,9 @@
             <label for="phone">Телефон</label>
             <input type="text" placeholder="" class="line__input" name="phone">
           </div>
-          <button class="form__btn">Отправить форму</button>
         </form>
+          <button class="form__btn send-btn">Отправить форму</button>
+
       </div>
     </div>
   </div>
@@ -267,29 +268,6 @@
               </svg>
             </div>
           </div>
-          <div class="menu-overlay">
-            <div class="menu-overlay__image">
-              <img src="./assets/img/index/form.jpg" alt="" />
-            </div>
-            <div class="nav">
-              <h2>Обсудить детали проекта</h2>
-              <form action="" class="form">
-                <div class="line">
-                  <label for="full-name">Ваше имя</label>
-                  <input type="text" placeholder="" name="full-name">
-                </div>
-                <div class="line">
-                  <label for="email">Email адрес</label>
-                  <input type="text" placeholder="" name="email">
-                </div>
-                <div class="line">
-                  <label for="phone">Телефон</label>
-                  <input type="text" placeholder="" name="phone">
-                </div>
-                <button class="form__btn">Отправить форму</button>
-              </form>
-            </div>
-          </div>
         </div>
       </div>
     </section>
@@ -332,6 +310,9 @@
       </div>
     </div>
   </footer>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@5/dark.css">
+  <script src="./libs/sweetalert/sweetalert2.all.min.js"></script>
+  <script src="./js/modal.js"></script>
   <script src="./js/progress.js"></script>
   <script src="./js/animations.js"></script>
   <script src="./js/form.js"></script>

@@ -51,8 +51,9 @@
             <label for="phone">Телефон</label>
             <input type="text" placeholder="" class="line__input" name="phone">
           </div>
-          <button class="form__btn">Отправить форму</button>
         </form>
+        <button class="form__btn send-btn">Отправить форму</button>
+
       </div>
     </div>
   </div>
@@ -337,22 +338,29 @@
           </ul>
         </div>
         <div class="advantages__right">
-          <p class="advantages__text anim-items">И 124 — одноэтажный дом площадью 124 кв.м. Рассчитан на постоянное проживание трех-четырех человек. Кухня, столовая и
-          гостиная объеденены в единый open-space площадью 52 кв.м. Спальни, - 15 и 22 метров каждая, расположены на максимальном
-          удалении друг от друга чтобы обеспечить максимальную защиту шумозащиту. Возле обеих спален расположены отдельные санузлы
-          по 5 кв.м. каждый.
+          <p class="advantages__text anim-items">И 124 — одноэтажный дом площадью 124 кв.м. Рассчитан на постоянное
+            проживание трех-четырех человек. Кухня, столовая и
+            гостиная объеденены в единый open-space площадью 52 кв.м. Спальни, - 15 и 22 метров каждая, расположены на
+            максимальном
+            удалении друг от друга чтобы обеспечить максимальную защиту шумозащиту. Возле обеих спален расположены
+            отдельные санузлы
+            по 5 кв.м. каждый.
           </p>
           <p class="advantages__text anim-items">
-            Панорамные окна из кухни-гостиной открывают хороший вид на окружающий ландшафт. Из кухни-гостиной организован выход на
+            Панорамные окна из кухни-гостиной открывают хороший вид на окружающий ландшафт. Из кухни-гостиной
+            организован выход на
             террасу, где можно одновременно разместить диванную группу, обеденный стол, гриль и надувной бассейн.
           </p>
           <p class="advantages__text anim-items">
-            Облик дома минималистичный и современный. Внешняя отделка стен — цементно стружечная плита, которая легко крепится на
-            саморезы. Отделка террасы — сухая строганная лиственница. Торцы кровли изготовлены из оцинкованного металлического листа
+            Облик дома минималистичный и современный. Внешняя отделка стен — цементно стружечная плита, которая легко
+            крепится на
+            саморезы. Отделка террасы — сухая строганная лиственница. Торцы кровли изготовлены из оцинкованного
+            металлического листа
             — он не гниет и служит до 50 лет.
           </p>
           <p class="advantages__text anim-items">
-            За счет грамотных архитектурных решений в доме всегда будет комфортная температура. Для уменьшения теплопотерь
+            За счет грамотных архитектурных решений в доме всегда будет комфортная температура. Для уменьшения
+            теплопотерь
             отказались от окон с северной стороны.
           </p>
           <p class="advantages__text anim-items">
@@ -432,9 +440,10 @@
       <div class="layout__cards">
         <div class="cards__item--layout">
           <h3>План 1 этажа</h3>
-          <img class="anim-items img-scale" style="max-height: 120vh;" src="../assets/img/header-houses/house5/layout1.jpg" alt="">
+          <img class="anim-items img-scale" style="max-height: 120vh;"
+            src="../assets/img/header-houses/house5/layout1.jpg" alt="">
         </div>
-        
+
       </div>
     </div>
   </section>
@@ -585,8 +594,8 @@
       <form action="">
         <input type="text" placeholder="Ваше имя">
         <input type="text" placeholder="Ваш телефон">
-        <button class="form-btn">Оставить заявку</button>
       </form>
+      <button class="form__btn send-btn">Оставить заявку</button>
     </div>
   </section>
   <footer class="footer">
@@ -627,6 +636,9 @@
       </div>
     </div>
   </footer>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@5/dark.css">
+  <script src="../libs/sweetalert/sweetalert2.all.min.js"></script>
+  <script src="../js/modal.js"></script>
   <script src="../js/animations.js"></script>
   <script src="../libs/jquery/jquery.js"></script>
   <script src="../js/form.js"></script>

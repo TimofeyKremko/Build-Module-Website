@@ -1,7 +1,9 @@
-.menu-button, .menu-button1 {
+.menu-button,
+.menu-button1 {
   position: static;
   cursor: pointer;
   z-index: 666;
+
   .button__overlay {
     background-color: $secondary_color;
     width: 40px;
@@ -10,12 +12,14 @@
     align-items: center;
     padding: 5px;
     border-radius: 50%;
+
     img {
       max-width: 100%;
       height: auto;
     }
   }
 }
+
 .active {
   .button__overlay {
     border: 1px solid $primary_color;
@@ -56,19 +60,23 @@
       opacity: 0;
     }
   }
+
   .nav {
     padding: 100px;
     padding-top: 250px;
+
     .form {
       .line {
         display: flex;
         justify-content: space-between;
         margin-top: 50px;
         width: 500px;
+
         label {
           font-size: 20px;
           color: $gray_bg_color;
         }
+
         input {
           background: none;
           border: none;
@@ -78,31 +86,36 @@
         }
       }
     }
-    .form__btn {
-      font-size: 18px;
-      margin-top: 50px;
-      padding: 10px 20px;
-      border-radius: 20px;
-      font-family: Montserrat;
-      background-color: $primary_color;
-      border: none;
-      color: $white_color;
-    }
+
   }
+}
+
+.form__btn {
+  font-size: 18px;
+  margin-top: 50px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-family: Montserrat;
+  background-color: $primary_color;
+  border: none;
+  color: $white_color;
+  cursor: pointer;
 }
 
 .menu-button1 {
   position: static;
   z-index: 1;
+
   .button__overlay {
-  background-color: $primary_color;
-  padding: 13px;
-  @include btn;
-      svg {
-          path {
-              fill: $white_color;
-          }
+    background-color: $primary_color;
+    padding: 13px;
+    @include btn;
+
+    svg {
+      path {
+        fill: $white_color;
       }
+    }
   }
 }
 
@@ -114,4 +127,10 @@
   100% {
     opacity: 1;
   }
+}
+
+.swal2-confirm {
+  background-color: $secondary_color !important;
+  color: #000;
+  box-shadow: 0;
 }
