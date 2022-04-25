@@ -1,0 +1,56 @@
+.advantages {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-color: $gray_bg_color;
+
+  h2 {
+    color: $white_color;
+    padding-bottom: 30px;
+  }
+
+  &__left {
+    max-width: 270px;
+    border-right: 2px solid $stroke_color;
+    padding-right: 30px;
+  }
+
+  &__right {
+    max-width: 900px;
+    padding-top: 35px;
+
+  }
+
+  .main {
+
+    &__text {
+      color: $white_color;
+    }
+  }
+}
+
+.advantages__container {
+  display: flex;
+  gap: 80px;
+}
+
+.adv {
+
+  &__numbers {
+    li {
+      margin-top: 35px;
+
+      h2 {
+        color: $secondary_color;
+        padding-bottom: 0;
+      }
+    }
+
+  }
+
+  &__numbers--title {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+  }
+}

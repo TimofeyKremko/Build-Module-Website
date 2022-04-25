@@ -1,0 +1,76 @@
+.questions {
+  background-color: $gray_bg_color;
+  padding: 100px 0;
+
+  &__container {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+    h2 {
+      color: $white_color;
+      padding-bottom: 50px;
+    }
+
+    h3 {
+      color: $primary_color;
+      font-weight: 600;
+    }
+
+    .que__list {
+      list-style: disc;
+    }
+
+    .block {
+      &__item {
+        background-color: $secondary_color;
+        padding: 30px 50px;
+        margin-bottom: 20px;
+      }
+
+      &__title {
+        position: relative;
+        padding-left: 30px;
+        cursor: pointer;
+
+        &::before,
+        &::after {
+          content: '';
+          width: 10px;
+          height: 3px;
+          background-color: $primary_color;
+          position: absolute;
+          top: 15px;
+          transition: all 0.3s ease-in-out;
+        }
+
+        &::before {
+          transform: rotate(40deg);
+          right: 8%;
+        }
+
+        &::after {
+          transform: rotate(-40deg);
+          right: calc(8% - 7px);
+        }
+
+
+      }
+
+      .active::before {
+        transform: rotate(-40deg);
+      }
+
+      .active::after {
+        transform: rotate(40deg);
+      }
+
+      &__text {
+        padding-left: 50px;
+        max-width: 80%;
+        padding-top: 20px;
+        display: none;
+      }
+    }
+  }
+}

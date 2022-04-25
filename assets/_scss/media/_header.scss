@@ -1,0 +1,81 @@
+@media (max-width: 750px) {
+  .header {
+    padding-left: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__wrapper {
+      flex-direction: column;
+      padding: 0 15px;
+    }
+
+    &__title {
+      align-self: center;
+      padding-top: 30px;
+      text-align: center;
+      margin-top: 30vh;
+
+      h1 {
+        font-size: 36px;
+
+      }
+    }
+
+    .offer__text {
+      font-size: 18px;
+
+    }
+
+    &__img {
+      display: none;
+
+    }
+
+    .header__scroll {
+      align-self: center;
+      display: flex;
+      justify-content: center;
+      background-color: $secondary_color;
+      width: 80vw;
+      border-radius: 10px;
+
+      &--link {
+        color: $primary_color;
+        padding: 20px;
+      }
+    }
+  }
+
+  .nav__link {
+    color: $white_color;
+  }
+  .header--about {
+    .container-video {
+      .box1, .box3 {
+        display: none
+      }
+      .box2 {
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        
+      }
+    }
+    
+  }
+  .header--house {
+    background: none !important;
+    .container {
+      .house__info {
+      flex-direction: column;
+      padding-bottom: 30px;
+        .info__title {
+          text-align: center;
+        }
+        &--text {
+          font-size: 35px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

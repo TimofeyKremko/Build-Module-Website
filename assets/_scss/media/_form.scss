@@ -1,0 +1,30 @@
+@media (max-width: 750px) {
+  .menu-overlay {
+    width: 100%;
+    &__image {
+      display: none;
+    }
+    .nav {
+      width: 100%;
+      padding: 15px;
+      padding-top: 20vh;
+      h2 {
+        text-align: left;
+      }
+      .form {
+        .line {
+          flex-direction: column;
+          label {
+            font-size: 16px;
+          }
+          &__input {
+            padding-top: 15px;
+          }
+        }
+      }
+    }
+    .open {
+      width: 100%;
+    }
+  }
+}

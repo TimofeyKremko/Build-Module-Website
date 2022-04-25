@@ -1,0 +1,14 @@
+@media (max-width: 750px) {
+.advantages {
+  padding-top: 50px;
+  &__container {
+    gap: 10px;
+  }
+  &__right {
+    width: 100%;
+    .advantages__text {
+      font-size: 14px;
+    }
+  }
+}
+}

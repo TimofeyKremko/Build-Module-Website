@@ -1,0 +1,27 @@
+@media (max-width: 750px) {
+
+.questions {
+  .block__item {
+    padding: 15px;
+  }
+  h3 {
+    font-size: 18px;
+
+  }
+  .block__title::before {
+    right: 1.5%;
+  }
+  .block__title::after {
+    right: 0;
+  }
+  .block__text {
+    padding: 15px;
+    max-width: 100%;
+    .main__text {
+    font-size: 16px;
+
+    }
+  }
+}
+
+}

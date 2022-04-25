@@ -1,0 +1,15 @@
+@media (max-width: 750px) {
+  .right__container {
+    padding: 30px 15px !important;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .right__container  {
+    padding: 0 15px;
+  }
+}

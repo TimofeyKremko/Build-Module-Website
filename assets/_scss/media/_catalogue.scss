@@ -1,0 +1,23 @@
+@media (max-width: 750px) {
+  .catalogue {
+    padding-bottom: 100px;
+    padding-top: 50px;
+    .right__container {
+      width: 100%;
+      padding: 0 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0 auto;
+      max-width: 100%;
+    }
+
+  .slider__card {
+    max-height: 300px;
+    height: 200px;
+    }
+  }
+  .category--last {
+    margin-top: 40px;
+  }
+}

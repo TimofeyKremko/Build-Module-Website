@@ -1,0 +1,44 @@
+@media (max-width: 1600px) {
+  .progress-section {
+    .right__content {
+      max-width: 50%;
+      padding: 30px;
+
+      p {
+        font-size: 24px;
+
+      }
+
+      .main__text {
+        font-size: 18px;
+      }
+    }
+
+    .left__content {
+      padding: 100px 0 0 160px;
+    }
+
+  }
+}
+
+@media (max-width: 750px) {
+
+  .progress-section {
+    .left__content {
+      display: none;
+    }
+
+    .right__content {
+      max-width: 100%;
+      padding: 0 15px 50px;
+
+      .benefits__item {
+        margin-top: 50px;
+
+        .benefits__title {
+          font-size: 27px;
+        }
+      }
+    }
+  }
+}

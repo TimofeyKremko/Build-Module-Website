@@ -1,0 +1,38 @@
+.house-features {
+  padding: 100px 0;
+  background-color: $gray_bg_color;
+
+  .right__container {
+    padding-right: 200px;
+    overflow: hidden;
+  }
+
+  h2 {
+    color: $white_color;
+  }
+
+  hr {
+    border-color: $stroke_color;
+  }
+
+  .cards {
+    margin-top: 50px;
+    max-width: 100%;
+    justify-content: space-between;
+  }
+
+  .cards__item {
+    background: none;
+    border: 1px solid $white_color;
+
+    h3 {
+      max-width: 50%;
+    }
+
+    .item__number {
+      h3 {
+        max-width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.menage-project {
+    background-color: $secondary_color;
+    padding: 130px 0 150px;
+
+    .container {
+        .menage-project__offer {
+            display: flex;
+            position: relative;
+            width: 580px;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+    }
+}
+
+.menage-project--about {
+    background-color: #3A3A3E;
+
+    .offer__title {
+
+        h2,
+        .main__text {
+            color: $white_color;
+
+        }
+    }
+
+    .button__overlay {
+        background-color: $white_color;
+
+        svg {
+            path {
+                fill: $primary_color;
+            }
+        }
+    }
+}

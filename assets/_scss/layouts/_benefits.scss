@@ -1,0 +1,55 @@
+.benefits {
+  background-color: $primary_color;
+
+  .right__container {
+    @include right-container-padding;
+    background-color: $white_color;
+    padding-bottom: 200px;
+    overflow: hidden;
+
+    h2 {
+      padding-bottom: 50px;
+    }
+
+  }
+}
+
+.cards {
+  max-width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  &__item,
+  .item {
+    background: #3a3a3e;
+    max-width: 430px;
+    padding: 35px 30px 40px;
+    border-radius: 20px;
+    
+
+    &__title {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__number {
+      width: 32px;
+      height: 32px;
+      background-color: $white_color;
+
+      h3 {
+        color: $gray_bg_color;
+        text-align: center;
+      }
+    }
+
+    .separator {
+      width: 20px;
+      height: 5px;
+      background: $white_color;
+      border-radius: 4px;
+      margin: 25px 0;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.creators {
+  background-color: $gray_bg_color;
+  padding: 100px 0 150px;
+
+  h2 {
+    color: $white_color;
+  }
+
+  .main__text {
+    color: $stroke_color;
+  }
+
+  hr {
+    max-width: 100%;
+    border-color: $stroke_color;
+    margin-bottom: 20px;
+  }
+
+  &__cards {
+    padding-top: 75px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1500px;
+    flex-wrap: wrap;
+
+    .cards__item {
+      max-width: 420px;
+
+      .item {
+        &__img {
+          overflow: hidden;
+          max-width: 100%;
+          height: auto;
+        }
+
+        &__text {
+          margin-top: 50px;
+
+          h4 {
+            padding-bottom: 12px;
+
+          }
+        }
+      }
+    }
+
+  }
+}

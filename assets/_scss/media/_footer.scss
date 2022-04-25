@@ -1,0 +1,15 @@
+@media (max-width: 750px) {
+  .footer {
+    .wrapper {
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    &__info {
+      width: 45%;
+      &--align {
+        text-align: right;
+      }
+    }
+  }
+}

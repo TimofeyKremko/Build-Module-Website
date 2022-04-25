@@ -1,0 +1,38 @@
+.house-form {
+  padding: 100px 0;
+  background: $secondary_color;
+  h2 {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .form {
+
+		&__container {
+      max-width: 580px;
+      margin: 0 auto;
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        input {
+          border-radius: 70px;
+          padding: 20px 30px;
+          border: 0;
+        }
+        .form-btn {
+          padding: 15px 0;
+          background-color: $primary_color;
+          color: $white_color;
+          border-radius: 70px;
+          border: 0;
+          font-family: Montserrat;
+          font-size: 18px;
+        }
+      }
+		}
+  }
+}
+
+::placeholder {
+  font-family: Montserrat;
+}

@@ -1,0 +1,22 @@
+@media (max-width: 750px) {
+  .nav__bar {
+    z-index: 1000;
+    padding: 15px;
+    background-color: $gray_bg_color;
+    border-bottom: 1px solid $secondary_color;
+    mix-blend-mode: normal;
+    .nav {
+      display: block;
+    }
+
+    .menu-button {
+      position: static;
+    }
+
+    .index__logo {
+      position: static;
+      font-size: 16px;
+
+    }
+  }
+}

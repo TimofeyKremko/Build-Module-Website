@@ -1,0 +1,29 @@
+.about {
+  background-color: $primary_color;
+  padding-bottom: 200px;
+  // max-height: 100vh;
+
+  .right__container {
+    @include box_padding;
+    background-color: $secondary_color;
+
+    .companyIs__desc {
+      font-size: 24px;
+      line-height: 29px;
+      max-width: 580px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      color: $primary_color;
+
+      img {
+        max-width: 40px;
+      }
+    }
+  }
+}
+
+.companyIs--about {
+  .companyIs__desc--about {
+    padding: 0;
+  }
+}

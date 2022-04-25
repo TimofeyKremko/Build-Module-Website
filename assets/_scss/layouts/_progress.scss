@@ -1,0 +1,35 @@
+.progress-section {
+  background-color: $primary_color;
+  position: relative;
+
+  .progress__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .left__content {
+    position: relative;
+    padding-left: 350px;
+    max-width: 30%;
+  }
+
+  .right__content {
+    max-width: 100%;
+    background-color: $secondary_color;
+    padding: 0px 60px 100px 150px;
+    max-width: 1100px;
+
+    .benefits__item {
+      margin-top: 200px;
+    }
+     .main__text {
+      padding-top: 25px;
+      max-width: 580px;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
+}

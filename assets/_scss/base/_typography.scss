@@ -1,0 +1,102 @@
+body {
+  font-family: $montserrat;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 73px;
+  color: $secondary_color;
+}
+
+h2 {
+  @include section_title;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: $white_color;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 37px;
+  color: $white_color;
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: $primary_color;
+}
+
+.advantages__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: $white_color;
+  margin-top: 25px;
+}
+
+.offer__text {
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 49px;
+  color: $white_color;
+  padding-bottom: 65px;
+}
+
+.category__title {
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 37px;
+  color: $secondary_color;
+  margin-top: 20px;
+}
+
+.line__text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: $primary_color;
+  span {
+    font-weight: bold;
+  }
+}
+
+
+
+.card__text {
+  font-size: 16px;
+  line-height: 20px;
+  color: $white_color;
+}
+
+.main__text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: $primary_color;
+}
+
+.footer__text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: $primary_color;
+}
+
+.benefits__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  display: flex;
+  gap: 30px;
+  padding-top: 65px;
+}

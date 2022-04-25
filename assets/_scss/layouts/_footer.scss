@@ -1,0 +1,39 @@
+.footer {
+    background-color: $white_color;
+    .wrapper {
+        padding: 75px 0;
+        display: flex;
+        justify-content: space-between;
+
+        .slogan {
+            display: flex;
+            align-items: center;
+            max-width: 180px;
+
+            &__img {
+                max-width: 100%;
+                padding-right: 12px;
+            }
+        }
+
+        .footer__info {
+            .footer__text:not(:first-child) {
+                padding-top: 13px;
+            }
+        }
+
+        .btn {
+            @include btn;
+
+            svg {
+                transform: rotate(-90deg);
+
+                path {
+
+                    fill: $white_color;
+                }
+            }
+        }
+
+    }
+}

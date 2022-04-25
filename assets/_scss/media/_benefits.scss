@@ -1,0 +1,19 @@
+@media (max-width: 750px) {
+  .benefits {
+    .right__container {
+      padding: 15px;
+      padding-bottom: 30px;
+      max-width: 100%;
+
+      .cards {
+        flex-direction: column;
+        justify-content: center;
+        max-width: 100%;
+
+        &__item {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}

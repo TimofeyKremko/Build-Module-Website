@@ -1,0 +1,12 @@
+@media (max-width: 750px) {
+  .house-features {
+    .cards {
+      justify-content: center;
+    }
+  }
+  .layout {
+    &__cards {
+      justify-content: center;
+    }
+  }
+}
