@@ -388,7 +388,7 @@ hr {
 
 .swal2-confirm {
   background-color: #CBFB45 !important;
-  color: #000 !important;
+  color: #000;
   -webkit-box-shadow: 0;
           box-shadow: 0;
 }
@@ -2196,6 +2196,9 @@ video {
 
 @media (max-width: 1200px) {
   .right__container {
+    padding: 0 15px;
+  }
+  .container {
     padding: 0 15px;
   }
 }
