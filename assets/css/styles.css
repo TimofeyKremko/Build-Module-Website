@@ -1917,7 +1917,7 @@ video {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding-bottom: 30px;
+    padding-bottom: 130px;
   }
   .header--house .container .house__info .info__title {
     text-align: center;
