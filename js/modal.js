@@ -26,6 +26,23 @@ sendBtns.forEach((item) => {
   });
 });
 
-// const houseName = document.querySelector(".house-form__name");
-// const housePhone = document.querySelector(".house-form__phone");
-// const formBtn = document.querySelector(".house__btn");
+const houseName = document.querySelector(".house-form__name");
+const housePhone = document.querySelector(".house-form__phone");
+const formBtn = document.querySelector(".house__btn");
+
+
+formBtn.addEventListener("click", () => {
+  if (
+    houseName.value &&
+    housePhone.value &&
+    regNumber.test(housePhone.value) === true
+  ) {
+    Swal.fire("Форма отправлена", "Скоро с вами свяжутся", "success");
+  } else {
+    Swal.fire(
+      "Заполните форму",
+      "Для отрпавки формы заполните данные",
+      "error"
+    );
+  }
+});
